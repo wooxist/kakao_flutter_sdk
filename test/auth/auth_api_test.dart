@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:kakao_flutter_sdk/auth.dart';
+import 'package:kakao_flutter_mirror/auth.dart';
 import 'package:platform/platform.dart';
 
 import '../helper.dart';
@@ -16,7 +16,7 @@ void main() {
 
   TestWidgetsFlutterBinding.ensureInitialized();
 
-  const MethodChannel channel = MethodChannel('kakao_flutter_sdk');
+  const MethodChannel channel = MethodChannel('kakao_flutter_mirror');
 
   setUp(() {
     _dio = Dio();

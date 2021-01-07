@@ -1,7 +1,7 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:kakao_flutter_sdk/src/auth/access_token_store.dart';
-import 'package:kakao_flutter_sdk/src/auth/model/access_token_response.dart';
+import 'package:kakao_flutter_mirror/src/auth/access_token_store.dart';
+import 'package:kakao_flutter_mirror/src/auth/model/access_token_response.dart';
 
 import '../helper.dart';
 

@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
-import 'package:kakao_flutter_sdk_example/story_bloc/story_detail_event.dart';
-import 'package:kakao_flutter_sdk_example/story_bloc/story_detail_state.dart';
-import 'package:kakao_flutter_sdk/story.dart';
+import 'package:kakao_flutter_mirror_example/story_bloc/story_detail_event.dart';
+import 'package:kakao_flutter_mirror_example/story_bloc/story_detail_state.dart';
+import 'package:kakao_flutter_mirror/story.dart';
 
 class StoryDetailBloc extends Bloc<StoryDetailEvent, StoryDetailState> {
   final StoryApi _storyApi;

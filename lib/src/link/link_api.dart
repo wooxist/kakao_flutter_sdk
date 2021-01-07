@@ -2,9 +2,9 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:dio/dio.dart';
-import 'package:kakao_flutter_sdk/src/common/api_factory.dart';
-import 'package:kakao_flutter_sdk/src/link/model/link_response.dart';
-import 'package:kakao_flutter_sdk/src/template/default_template.dart';
+import 'package:kakao_flutter_mirror/src/common/api_factory.dart';
+import 'package:kakao_flutter_mirror/src/link/model/link_response.dart';
+import 'package:kakao_flutter_mirror/src/template/default_template.dart';
 
 ///
 class LinkApi {

@@ -1,10 +1,10 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:kakao_flutter_sdk/auth.dart';
+import 'package:kakao_flutter_mirror/auth.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
-  var channel = MethodChannel("kakao_flutter_sdk");
+  var channel = MethodChannel("kakao_flutter_mirror");
   setUp(() async {});
 
   tearDown(() async {

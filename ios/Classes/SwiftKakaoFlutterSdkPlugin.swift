@@ -10,7 +10,7 @@ public class SwiftKakaoFlutterSdkPlugin: NSObject, FlutterPlugin, ASWebAuthentic
 
   public static func register(with registrar: FlutterPluginRegistrar) {
     NSLog("nslog register")
-    let channel = FlutterMethodChannel(name: "kakao_flutter_sdk", binaryMessenger: registrar.messenger())
+    let channel = FlutterMethodChannel(name: "kakao_flutter_mirror", binaryMessenger: registrar.messenger())
     let instance = SwiftKakaoFlutterSdkPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
     registrar.addApplicationDelegate(instance) // This is necessary to receive open iurl delegate method.

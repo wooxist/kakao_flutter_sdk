@@ -1,4 +1,4 @@
-# kakao_flutter_sdk
+# kakao_flutter_mirror
 
 Flutter SDK for Kakao API.
 Currently supports `Android` and `iOS` platform, and will support `web` platform (still in beta stage) in the _near future_.
@@ -29,7 +29,7 @@ Specify Kakao SDK dependency as below in your `pubspec.yaml`.
 
 ```yaml
 dependencies:
-  kakao_flutter_sdk: ^0.5.2
+  kakao_flutter_mirror_mirror: ^0.5.2
 ```
 
 ### dependencies
@@ -77,7 +77,7 @@ platform :ios, '11.0'
 Otherwise, you will encounter errors such as:
 
 ```
-[!] CocoaPods could not find compatible versions for pod "kakao_flutter_sdk":
+[!] CocoaPods could not find compatible versions for pod "kakao_flutter_mirror":
 ```
 
 ## Implementation Guide
@@ -150,7 +150,7 @@ Otherwise, the login process will halt with no further UI response.
 </manifest>
 ```
 
-You can look for sample code [here](https://github.com/kakao/kakao_flutter_sdk/blob/master/example/android/app/src/main/AndroidManifest.xml).
+You can look for sample code [here](https://github.com/kakao/kakao_flutter_mirror/blob/master/example/android/app/src/main/AndroidManifest.xml).
 
 
 **For iOS**, you have to register schemes for all **browser redirect**, **KakaoTalk login**, and **kakaolink**.
@@ -203,7 +203,7 @@ However, it wil reuse browser cookie in subsequent login attempts so that user d
 Below example shows how you can divide user login logic depending on whether user has KakaoTalk installed or not.
 
 ```dart
-import 'package:kakao_flutter_sdk/common.dart'; // import utility methods
+import 'package:kakao_flutter_mirror/common.dart'; // import utility methods
 
 ...
   login() async {
@@ -370,7 +370,7 @@ KakaoLink API can be used after simply setting your native app key in _KakaoCont
 Below is an example of sending KakaoLink message with custom template.
 
 ```dart
-import 'package:kakao_flutter_sdk/main.dart';
+import 'package:kakao_flutter_mirror/main.dart';
 
 Uri uri = await LinkClient.instance
           .custom(16761, templateArgs: {"key1": "value1"});
@@ -385,14 +385,14 @@ Tokens are automatically refreshed on relveant api errors (ApiErrorCause.INVALID
 
 ## Development Guide
 
-Visit this [Development Guide](https://github.com/CoderSpinoza/kakao_flutter_sdk/wiki/Development-Guide) to contribute to this repository.
+Visit this [Development Guide](https://github.com/CoderSpinoza/kakao_flutter_mirror/wiki/Development-Guide) to contribute to this repository.
 
 
 ## References
 
 ### Firebase Auth + Kakao Login with custom token
 
-- https://github.com/fysoul17/kakao_flutter_sdk/tree/master/example_firebase
+- https://github.com/fysoul17/kakao_flutter_mirror/tree/master/example_firebase
 - https://github.com/FirebaseExtended/custom-auth-samples
 - https://github.com/fysoul17/firebase_auth_simplify
 

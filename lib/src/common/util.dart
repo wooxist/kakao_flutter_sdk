@@ -1,9 +1,9 @@
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:kakao_flutter_sdk/story.dart';
+import 'package:kakao_flutter_mirror/story.dart';
 
-const MethodChannel _channel = MethodChannel("kakao_flutter_sdk");
+const MethodChannel _channel = MethodChannel("kakao_flutter_mirror");
 
 /// Launches a given url with platform-specific default browser tab.
 Future<String> launchBrowserTab(Uri uri, {String redirectUri}) {

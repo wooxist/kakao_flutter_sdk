@@ -1,6 +1,6 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:kakao_flutter_sdk/src/local/model/region_info.dart';
-import 'package:kakao_flutter_sdk/src/search/model/search_meta.dart';
+import 'package:kakao_flutter_mirror/src/local/model/region_info.dart';
+import 'package:kakao_flutter_mirror/src/search/model/search_meta.dart';
 
 part 'local_search_meta.g.dart';
 

@@ -2,16 +2,16 @@ import 'dart:async';
 
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:kakao_flutter_sdk/common.dart';
-import 'package:kakao_flutter_sdk/search.dart';
-import 'package:kakao_flutter_sdk/src/local/model/coord.dart';
-import 'package:kakao_flutter_sdk/src/local/model/count_meta.dart';
-import 'package:kakao_flutter_sdk/src/local/model/local_envelope.dart';
-import 'package:kakao_flutter_sdk/src/local/model/local_search_meta.dart';
-import 'package:kakao_flutter_sdk/src/local/model/place.dart';
-import 'package:kakao_flutter_sdk/src/local/model/region.dart';
-import 'package:kakao_flutter_sdk/src/local/model/total_address.dart';
-import 'package:kakao_flutter_sdk/src/search/model/search_meta.dart';
+import 'package:kakao_flutter_mirror/common.dart';
+import 'package:kakao_flutter_mirror/search.dart';
+import 'package:kakao_flutter_mirror/src/local/model/coord.dart';
+import 'package:kakao_flutter_mirror/src/local/model/count_meta.dart';
+import 'package:kakao_flutter_mirror/src/local/model/local_envelope.dart';
+import 'package:kakao_flutter_mirror/src/local/model/local_search_meta.dart';
+import 'package:kakao_flutter_mirror/src/local/model/place.dart';
+import 'package:kakao_flutter_mirror/src/local/model/region.dart';
+import 'package:kakao_flutter_mirror/src/local/model/total_address.dart';
+import 'package:kakao_flutter_mirror/src/search/model/search_meta.dart';
 
 /// Provides Kakao Local API
 ///

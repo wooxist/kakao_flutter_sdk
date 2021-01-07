@@ -1,6 +1,6 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:kakao_flutter_sdk/src/search/generics_converter.dart';
-import 'package:kakao_flutter_sdk/src/search/model/search_meta.dart';
+import 'package:kakao_flutter_mirror/src/search/generics_converter.dart';
+import 'package:kakao_flutter_mirror/src/search/model/search_meta.dart';
 
 part 'search_envelope.g.dart';
 

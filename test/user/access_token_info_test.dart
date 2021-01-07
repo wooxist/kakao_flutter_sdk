@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:kakao_flutter_sdk/src/user/model/access_token_info.dart';
+import 'package:kakao_flutter_mirror/src/user/model/access_token_info.dart';
 
 import '../helper.dart';
 

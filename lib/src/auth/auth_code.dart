@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
-import 'package:kakao_flutter_sdk/common.dart';
-import 'package:kakao_flutter_sdk/src/auth/auth_api.dart';
+import 'package:kakao_flutter_mirror/common.dart';
+import 'package:kakao_flutter_mirror/src/auth/auth_api.dart';
 import 'package:platform/platform.dart';
 
-const MethodChannel _channel = MethodChannel("kakao_flutter_sdk");
+const MethodChannel _channel = MethodChannel("kakao_flutter_mirror");
 
 /// Provides OAuth authorization process.
 ///

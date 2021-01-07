@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:dio/dio.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:kakao_flutter_sdk/talk.dart';
+import 'package:kakao_flutter_mirror/talk.dart';
 
 import '../helper.dart';
 import '../mock_adapter.dart';

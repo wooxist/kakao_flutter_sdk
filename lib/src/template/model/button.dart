@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:kakao_flutter_sdk/src/template/model/link.dart';
+import 'package:kakao_flutter_mirror/src/template/model/link.dart';
 
 part 'button.g.dart';
 

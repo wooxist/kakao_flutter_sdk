@@ -1,5 +1,5 @@
-import 'package:kakao_flutter_sdk/src/auth/model/access_token_response.dart';
-import 'package:kakao_flutter_sdk/src/auth/model/access_token.dart';
+import 'package:kakao_flutter_mirror/src/auth/model/access_token_response.dart';
+import 'package:kakao_flutter_mirror/src/auth/model/access_token.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// Stores access token and refresh token from [AuthApi].

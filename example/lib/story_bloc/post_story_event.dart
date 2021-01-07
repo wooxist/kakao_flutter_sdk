@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';
-import 'package:kakao_flutter_sdk/story.dart';
+import 'package:kakao_flutter_mirror/story.dart';
 
 @immutable
 abstract class PostStoryEvent extends Equatable {

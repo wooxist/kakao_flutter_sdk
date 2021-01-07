@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:kakao_flutter_sdk/src/user/model/shipping_address.dart';
+import 'package:kakao_flutter_mirror/src/user/model/shipping_address.dart';
 
 part 'shipping_addresses.g.dart';
 

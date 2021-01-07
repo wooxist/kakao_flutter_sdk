@@ -4,13 +4,13 @@ import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:json_annotation/json_annotation.dart';
-import 'package:kakao_flutter_sdk/common.dart';
-import 'package:kakao_flutter_sdk/src/common/api_factory.dart';
-import 'package:kakao_flutter_sdk/src/talk/model/friends_response.dart';
-import 'package:kakao_flutter_sdk/src/talk/model/message_send_result.dart';
-import 'package:kakao_flutter_sdk/src/talk/model/plus_friends_response.dart';
-import 'package:kakao_flutter_sdk/src/talk/model/talk_profile.dart';
-import 'package:kakao_flutter_sdk/src/template/default_template.dart';
+import 'package:kakao_flutter_mirror/common.dart';
+import 'package:kakao_flutter_mirror/src/common/api_factory.dart';
+import 'package:kakao_flutter_mirror/src/talk/model/friends_response.dart';
+import 'package:kakao_flutter_mirror/src/talk/model/message_send_result.dart';
+import 'package:kakao_flutter_mirror/src/talk/model/plus_friends_response.dart';
+import 'package:kakao_flutter_mirror/src/talk/model/talk_profile.dart';
+import 'package:kakao_flutter_mirror/src/template/default_template.dart';
 
 /// Provides KakaoTalk API.
 class TalkApi {

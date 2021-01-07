@@ -2,10 +2,10 @@ import 'dart:async';
 import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:kakao_flutter_sdk/src/auth/access_token_store.dart';
-import 'package:kakao_flutter_sdk/src/auth/model/access_token_response.dart';
-import 'package:kakao_flutter_sdk/src/common/api_factory.dart';
-import 'package:kakao_flutter_sdk/src/common/kakao_context.dart';
+import 'package:kakao_flutter_mirror/src/auth/access_token_store.dart';
+import 'package:kakao_flutter_mirror/src/auth/model/access_token_response.dart';
+import 'package:kakao_flutter_mirror/src/common/api_factory.dart';
+import 'package:kakao_flutter_mirror/src/common/kakao_context.dart';
 
 import 'package:platform/platform.dart';
 

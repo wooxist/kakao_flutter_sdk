@@ -1,11 +1,11 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:kakao_flutter_sdk/src/search/model/blog.dart';
-import 'package:kakao_flutter_sdk/src/search/model/book.dart';
-import 'package:kakao_flutter_sdk/src/search/model/cafe.dart';
-import 'package:kakao_flutter_sdk/src/search/model/image_result.dart';
-import 'package:kakao_flutter_sdk/src/search/model/tip.dart';
-import 'package:kakao_flutter_sdk/src/search/model/vclip.dart';
-import 'package:kakao_flutter_sdk/src/search/model/web_result.dart';
+import 'package:kakao_flutter_mirror/src/search/model/blog.dart';
+import 'package:kakao_flutter_mirror/src/search/model/book.dart';
+import 'package:kakao_flutter_mirror/src/search/model/cafe.dart';
+import 'package:kakao_flutter_mirror/src/search/model/image_result.dart';
+import 'package:kakao_flutter_mirror/src/search/model/tip.dart';
+import 'package:kakao_flutter_mirror/src/search/model/vclip.dart';
+import 'package:kakao_flutter_mirror/src/search/model/web_result.dart';
 
 /// <nodoc>
 class GenericsConverter<T> implements JsonConverter<T, Object> {

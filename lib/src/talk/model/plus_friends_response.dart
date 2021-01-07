@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:kakao_flutter_sdk/src/talk/model/plus_friend_info.dart';
+import 'package:kakao_flutter_mirror/src/talk/model/plus_friend_info.dart';
 
 part 'plus_friends_response.g.dart';
 

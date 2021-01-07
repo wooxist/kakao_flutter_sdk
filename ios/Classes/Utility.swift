@@ -1,6 +1,6 @@
 //
 //  Utility.swift
-//  kakao_flutter_sdk
+//  kakao_flutter_mirror
 //
 //  Created by Hara Kang on 10/08/2019.
 //

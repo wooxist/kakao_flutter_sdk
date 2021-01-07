@@ -1,11 +1,11 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:kakao_flutter_sdk/src/local/model/coord.dart';
-import 'package:kakao_flutter_sdk/src/local/model/count_meta.dart';
-import 'package:kakao_flutter_sdk/src/local/model/local_search_meta.dart';
-import 'package:kakao_flutter_sdk/src/local/model/place.dart';
-import 'package:kakao_flutter_sdk/src/local/model/region.dart';
-import 'package:kakao_flutter_sdk/src/local/model/total_address.dart';
-import 'package:kakao_flutter_sdk/src/search/model/search_meta.dart';
+import 'package:kakao_flutter_mirror/src/local/model/coord.dart';
+import 'package:kakao_flutter_mirror/src/local/model/count_meta.dart';
+import 'package:kakao_flutter_mirror/src/local/model/local_search_meta.dart';
+import 'package:kakao_flutter_mirror/src/local/model/place.dart';
+import 'package:kakao_flutter_mirror/src/local/model/region.dart';
+import 'package:kakao_flutter_mirror/src/local/model/total_address.dart';
+import 'package:kakao_flutter_mirror/src/search/model/search_meta.dart';
 
 class GenericsConverter<T> implements JsonConverter<T, Object> {
   const GenericsConverter();

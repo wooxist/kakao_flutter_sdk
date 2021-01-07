@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:bloc/bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:kakao_flutter_sdk_example/search_bloc/search_state.dart';
+import 'package:kakao_flutter_mirror_example/search_bloc/search_state.dart';
 import 'search_bloc/bloc.dart';
 
 class DataSearch extends SearchDelegate<String> {

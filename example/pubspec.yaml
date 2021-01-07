@@ -1,5 +1,5 @@
-name: kakao_flutter_sdk_example
-description: Demonstrates how to use the kakao_flutter_sdk plugin.
+name: kakao_flutter_mirror_example
+description: Demonstrates how to use the kakao_flutter_mirror plugin.
 version: 0.5.2
 publish_to: "none"
 environment:
@@ -15,7 +15,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  kakao_flutter_sdk:
+  kakao_flutter_mirror:
     path: ../
 
 # For information on the generic Dart part of this file, see the

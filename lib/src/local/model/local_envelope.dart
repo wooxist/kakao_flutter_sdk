@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:kakao_flutter_sdk/src/local/generics_converter.dart';
+import 'package:kakao_flutter_mirror/src/local/generics_converter.dart';
 
 part 'local_envelope.g.dart';
 

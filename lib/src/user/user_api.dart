@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:dio/dio.dart';
-import 'package:kakao_flutter_sdk/src/common/api_factory.dart';
+import 'package:kakao_flutter_mirror/src/common/api_factory.dart';
 
 import 'model/access_token_info.dart';
 import 'model/service_terms.dart';

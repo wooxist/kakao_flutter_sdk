@@ -10,7 +10,7 @@
         android:name="flutterEmbedding"
         android:value="2" />
     <application
-        android:label="kakao_flutter_sdk_example"
+        android:label="kakao_flutter_mirror_example"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

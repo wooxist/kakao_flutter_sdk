@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:kakao_flutter_sdk/template.dart';
+import 'package:kakao_flutter_mirror/template.dart';
 
 void main() {
   setUp(() {});

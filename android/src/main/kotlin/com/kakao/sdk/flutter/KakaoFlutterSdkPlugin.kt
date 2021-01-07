@@ -14,7 +14,7 @@ class KakaoFlutterSdkPlugin(private val registrar: Registrar) : MethodCallHandle
     lateinit var redirectUriResult: Result
     @JvmStatic
     fun registerWith(registrar: Registrar) {
-      val channel = MethodChannel(registrar.messenger(), "kakao_flutter_sdk")
+      val channel = MethodChannel(registrar.messenger(), "kakao_flutter_mirror")
       channel.setMethodCallHandler(KakaoFlutterSdkPlugin(registrar))
     }
   }

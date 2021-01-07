@@ -3,11 +3,11 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:kakao_flutter_sdk/src/common/api_factory.dart';
-import 'package:kakao_flutter_sdk/src/common/kakao_error.dart';
-import 'package:kakao_flutter_sdk/src/story/model/link_info.dart';
-import 'package:kakao_flutter_sdk/src/story/model/story.dart';
-import 'package:kakao_flutter_sdk/src/story/model/story_profile.dart';
+import 'package:kakao_flutter_mirror/src/common/api_factory.dart';
+import 'package:kakao_flutter_mirror/src/common/kakao_error.dart';
+import 'package:kakao_flutter_mirror/src/story/model/link_info.dart';
+import 'package:kakao_flutter_mirror/src/story/model/story.dart';
+import 'package:kakao_flutter_mirror/src/story/model/story_profile.dart';
 
 /// Provides KakaoStory API.
 class StoryApi {

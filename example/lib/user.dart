@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'package:kakao_flutter_sdk/user.dart';
-import 'package:kakao_flutter_sdk_example/user_bloc/bloc.dart';
-import 'package:kakao_flutter_sdk_example/user_bloc/user_bloc.dart';
+import 'package:kakao_flutter_mirror/user.dart';
+import 'package:kakao_flutter_mirror_example/user_bloc/bloc.dart';
+import 'package:kakao_flutter_mirror_example/user_bloc/user_bloc.dart';
 
 class UserScreen extends StatefulWidget {
   @override

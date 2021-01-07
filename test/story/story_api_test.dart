@@ -3,7 +3,7 @@ import 'dart:io';
 
 import 'package:dio/dio.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:kakao_flutter_sdk/story.dart';
+import 'package:kakao_flutter_mirror/story.dart';
 
 import '../helper.dart';
 import '../mock_adapter.dart';

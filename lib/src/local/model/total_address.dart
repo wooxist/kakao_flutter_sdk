@@ -1,7 +1,7 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:kakao_flutter_sdk/src/local/model/address.dart';
-import 'package:kakao_flutter_sdk/src/local/model/coord.dart';
-import 'package:kakao_flutter_sdk/src/local/model/road_address.dart';
+import 'package:kakao_flutter_mirror/src/local/model/address.dart';
+import 'package:kakao_flutter_mirror/src/local/model/coord.dart';
+import 'package:kakao_flutter_mirror/src/local/model/road_address.dart';
 
 part 'total_address.g.dart';
 

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:kakao_flutter_sdk/story.dart';
-import 'package:kakao_flutter_sdk_example/story_bloc/bloc.dart';
-import 'package:kakao_flutter_sdk_example/story_detail.dart';
+import 'package:kakao_flutter_mirror/story.dart';
+import 'package:kakao_flutter_mirror_example/story_bloc/bloc.dart';
+import 'package:kakao_flutter_mirror_example/story_detail.dart';
 
 class StoryScreen extends StatelessWidget {
   @override

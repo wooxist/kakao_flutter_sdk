@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:kakao_flutter_sdk/src/user/model/account.dart';
+import 'package:kakao_flutter_mirror/src/user/model/account.dart';
 
 part 'user.g.dart';
 

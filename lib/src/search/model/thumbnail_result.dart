@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:kakao_flutter_sdk/src/search/model/web_result.dart';
+import 'package:kakao_flutter_mirror/src/search/model/web_result.dart';
 
 part 'thumbnail_result.g.dart';
 

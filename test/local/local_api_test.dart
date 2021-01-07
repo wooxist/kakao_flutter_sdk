@@ -3,9 +3,9 @@ import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:kakao_flutter_sdk/src/local/local_api.dart';
-import 'package:kakao_flutter_sdk/src/local/model/coord.dart';
-import 'package:kakao_flutter_sdk/src/local/model/place.dart';
+import 'package:kakao_flutter_mirror/src/local/local_api.dart';
+import 'package:kakao_flutter_mirror/src/local/model/coord.dart';
+import 'package:kakao_flutter_mirror/src/local/model/place.dart';
 
 import '../helper.dart';
 import '../mock_adapter.dart';

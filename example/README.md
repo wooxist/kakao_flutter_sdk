@@ -1,6 +1,6 @@
-# kakao_flutter_sdk_example
+# kakao_flutter_mirror_example
 
-Demonstrates how to use the kakao_flutter_sdk plugin.
+Demonstrates how to use the kakao_flutter_mirror plugin.
 
 ## Getting Started
 

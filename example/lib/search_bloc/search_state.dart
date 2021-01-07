@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';
-import 'package:kakao_flutter_sdk/search.dart';
+import 'package:kakao_flutter_mirror/search.dart';
 
 @immutable
 abstract class SearchState extends Equatable {

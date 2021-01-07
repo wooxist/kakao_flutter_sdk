@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:dio/dio.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:kakao_flutter_sdk/push.dart';
+import 'package:kakao_flutter_mirror/push.dart';
 import 'package:platform/platform.dart';
 
 import '../helper.dart';

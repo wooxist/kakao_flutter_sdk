@@ -1,15 +1,15 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:json_annotation/json_annotation.dart';
-import 'package:kakao_flutter_sdk/common.dart';
-import 'package:kakao_flutter_sdk/src/search/model/blog.dart';
-import 'package:kakao_flutter_sdk/src/search/model/book.dart';
-import 'package:kakao_flutter_sdk/src/search/model/cafe.dart';
-import 'package:kakao_flutter_sdk/src/search/model/image_result.dart';
-import 'package:kakao_flutter_sdk/src/search/model/search_envelope.dart';
-import 'package:kakao_flutter_sdk/src/search/model/tip.dart';
-import 'package:kakao_flutter_sdk/src/search/model/vclip.dart';
-import 'package:kakao_flutter_sdk/src/search/model/web_result.dart';
+import 'package:kakao_flutter_mirror/common.dart';
+import 'package:kakao_flutter_mirror/src/search/model/blog.dart';
+import 'package:kakao_flutter_mirror/src/search/model/book.dart';
+import 'package:kakao_flutter_mirror/src/search/model/cafe.dart';
+import 'package:kakao_flutter_mirror/src/search/model/image_result.dart';
+import 'package:kakao_flutter_mirror/src/search/model/search_envelope.dart';
+import 'package:kakao_flutter_mirror/src/search/model/tip.dart';
+import 'package:kakao_flutter_mirror/src/search/model/vclip.dart';
+import 'package:kakao_flutter_mirror/src/search/model/web_result.dart';
 
 class SearchApi {
   SearchApi(this._dio);

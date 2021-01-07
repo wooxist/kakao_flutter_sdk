@@ -3,10 +3,10 @@ import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_test/flutter_test.dart' as prefix0;
-import 'package:kakao_flutter_sdk/src/user/model/account.dart';
-import 'package:kakao_flutter_sdk/src/user/model/user.dart';
-import 'package:kakao_flutter_sdk/src/user/user_api.dart';
-import 'package:kakao_flutter_sdk/story.dart';
+import 'package:kakao_flutter_mirror/src/user/model/account.dart';
+import 'package:kakao_flutter_mirror/src/user/model/user.dart';
+import 'package:kakao_flutter_mirror/src/user/user_api.dart';
+import 'package:kakao_flutter_mirror/story.dart';
 
 import '../helper.dart';
 import '../mock_adapter.dart';

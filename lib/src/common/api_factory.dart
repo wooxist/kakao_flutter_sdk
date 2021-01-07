@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:kakao_flutter_sdk/auth.dart';
-import 'package:kakao_flutter_sdk/src/common/dapi_exception.dart';
+import 'package:kakao_flutter_mirror/auth.dart';
+import 'package:kakao_flutter_mirror/src/common/dapi_exception.dart';
 
 /// Factory for network clients, interceptors, and error transformers used by other libraries.
 class ApiFactory {

@@ -1,5 +1,5 @@
 #import "KakaoFlutterSdkPlugin.h"
-#import <kakao_flutter_sdk/kakao_flutter_sdk-Swift.h>
+#import <kakao_flutter_mirror/kakao_flutter_mirror-Swift.h>
 
 @implementation KakaoFlutterSdkPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {

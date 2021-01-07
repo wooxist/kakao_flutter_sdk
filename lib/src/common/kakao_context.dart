@@ -7,7 +7,7 @@ import 'package:package_info/package_info.dart';
 class KakaoContext {
   KakaoContext._();
   static const MethodChannel _channel =
-      const MethodChannel('kakao_flutter_sdk');
+      const MethodChannel('kakao_flutter_mirror');
 
   /// Native app key for this application from [Kakao Developers](https://developers.kakao.com).
   static String clientId;

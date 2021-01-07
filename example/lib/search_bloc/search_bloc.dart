@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'search_event.dart';
 import 'search_state.dart';
-import 'package:kakao_flutter_sdk/search.dart';
+import 'package:kakao_flutter_mirror/search.dart';
 
 class SearchBloc extends Bloc<SearchEvent, SearchState> {
   final SearchApi _api;

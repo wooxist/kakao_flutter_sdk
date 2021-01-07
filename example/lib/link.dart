@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kakao_flutter_sdk/link.dart';
+import 'package:kakao_flutter_mirror/link.dart';
 
 class LinkScreen extends StatelessWidget {
   @override

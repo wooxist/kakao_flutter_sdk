@@ -1,14 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:kakao_flutter_sdk/auth.dart';
+import 'package:kakao_flutter_mirror/auth.dart';
 import 'package:bloc/bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:kakao_flutter_sdk_example/bloc_delegate.dart';
-import 'package:kakao_flutter_sdk_example/story_bloc/bloc.dart';
-import 'package:kakao_flutter_sdk_example/talk_bloc/bloc.dart';
-import 'package:kakao_flutter_sdk_example/user_bloc/bloc.dart';
-import 'package:kakao_flutter_sdk_example/search_bloc/bloc.dart';
+import 'package:kakao_flutter_mirror_example/bloc_delegate.dart';
+import 'package:kakao_flutter_mirror_example/story_bloc/bloc.dart';
+import 'package:kakao_flutter_mirror_example/talk_bloc/bloc.dart';
+import 'package:kakao_flutter_mirror_example/user_bloc/bloc.dart';
+import 'package:kakao_flutter_mirror_example/search_bloc/bloc.dart';
 
 import 'add_story.dart';
 import 'link.dart';

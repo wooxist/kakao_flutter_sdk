@@ -6,7 +6,7 @@
 // class KakaoFlutterSdkPlugin {
 //   static void registerWith(Registrar registrar) {
 //     final MethodChannel channel = MethodChannel(
-//         "kakao_flutter_sdk", const StandardMethodCodec(), registrar.messenger);
+//         "kakao_flutter_mirror", const StandardMethodCodec(), registrar.messenger);
 
 //     final KakaoFlutterSdkPlugin instance = KakaoFlutterSdkPlugin();
 //     channel.setMethodCallHandler(instance.handleMethodCall);

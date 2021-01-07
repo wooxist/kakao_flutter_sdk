@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:kakao_flutter_sdk/src/story/model/story_actor.dart';
+import 'package:kakao_flutter_mirror/src/story/model/story_actor.dart';
 
 part 'story_comment.g.dart';
 

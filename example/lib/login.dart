@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:kakao_flutter_sdk/auth.dart';
-import 'package:kakao_flutter_sdk/common.dart';
+import 'package:kakao_flutter_mirror/auth.dart';
+import 'package:kakao_flutter_mirror/common.dart';
 import 'search_bloc/bloc.dart';
 import 'package:bloc/bloc.dart';
 

@@ -1,7 +1,7 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:kakao_flutter_sdk/src/story/model/story_comment.dart';
-import 'package:kakao_flutter_sdk/src/story/model/story_image.dart';
-import 'package:kakao_flutter_sdk/src/story/model/story_like.dart';
+import 'package:kakao_flutter_mirror/src/story/model/story_comment.dart';
+import 'package:kakao_flutter_mirror/src/story/model/story_image.dart';
+import 'package:kakao_flutter_mirror/src/story/model/story_like.dart';
 
 part 'story.g.dart';
 

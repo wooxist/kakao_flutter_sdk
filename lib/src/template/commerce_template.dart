@@ -1,8 +1,8 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:kakao_flutter_sdk/src/template/default_template.dart';
-import 'package:kakao_flutter_sdk/src/template/model/button.dart';
-import 'package:kakao_flutter_sdk/src/template/model/commerce.dart';
-import 'package:kakao_flutter_sdk/src/template/model/content.dart';
+import 'package:kakao_flutter_mirror/src/template/default_template.dart';
+import 'package:kakao_flutter_mirror/src/template/model/button.dart';
+import 'package:kakao_flutter_mirror/src/template/model/commerce.dart';
+import 'package:kakao_flutter_mirror/src/template/model/content.dart';
 
 part 'commerce_template.g.dart';
 
