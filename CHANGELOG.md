@@ -1,7 +1,12 @@
 
+## 1.0.2
+- 빌드에러 수정하였습니다.
 
 ## 1.0.1
 - 작업 중인 상태입니다. 사용하지마세요.
+
+## 1.0.0
+- Mirror start
 
 ## 0.5.2
 - Reformat all code with `dartfmt -w .`.
