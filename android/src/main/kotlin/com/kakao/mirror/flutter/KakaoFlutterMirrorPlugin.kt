@@ -1,4 +1,4 @@
-package com.kakao.sdk.flutter
+package com.kakao.mirror.flutter
 
 import android.content.Intent
 import android.net.Uri
@@ -8,14 +8,14 @@ import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 import io.flutter.plugin.common.PluginRegistry.Registrar
 
-class KakaoFlutterSdkPlugin(private val registrar: Registrar) : MethodCallHandler {
+class KakaoFlutterMirrorPlugin(private val registrar: Registrar) : MethodCallHandler {
   companion object {
     var redirectUri: String? = null
     lateinit var redirectUriResult: Result
     @JvmStatic
     fun registerWith(registrar: Registrar) {
       val channel = MethodChannel(registrar.messenger(), "kakao_flutter_mirror")
-      channel.setMethodCallHandler(KakaoFlutterSdkPlugin(registrar))
+      channel.setMethodCallHandler(KakaoFlutterMirrorPlugin(registrar))
     }
   }
 

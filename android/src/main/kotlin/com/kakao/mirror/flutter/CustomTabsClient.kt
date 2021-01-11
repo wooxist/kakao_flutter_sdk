@@ -1,4 +1,4 @@
-package com.kakao.sdk.flutter
+package com.kakao.mirror.flutter
 
 import android.content.ComponentName
 import android.content.Context
@@ -58,7 +58,7 @@ object CustomTabsCommonClient {
         chromePackage = info.serviceInfo.packageName
       }
       // check if the browser being looped is the default browser
-      if (info.serviceInfo.packageName == resolveInfo?.activityInfo.packageName) {
+      if (info.serviceInfo.packageName == resolveInfo?.activityInfo?.packageName) {
         packageName = resolveInfo?.activityInfo?.packageName
         break
       }

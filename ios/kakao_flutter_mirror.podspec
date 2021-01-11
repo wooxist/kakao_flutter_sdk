@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 A new flutter plugin project.
                        DESC
-  s.homepage         = 'https://github.com/CoderSpinoza/kakao_flutter_mirror'
+  s.homepage         = 'https://github.com/CoderSpinoza/kakao_flutter_sdk'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Hara Kang' => 'hara0115@gmail.com' }
   s.source           = { :path => '.' }

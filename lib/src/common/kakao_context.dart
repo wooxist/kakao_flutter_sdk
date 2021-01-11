@@ -47,12 +47,12 @@ class KakaoContext {
   ///
   /// ### Android example
   /// ```
-  /// sdk/0.1.0 sdk_type/flutter os/android-28 lang/ko-KR origin/R0tsaOaVqq4/xTZAEihCkrXS+6M= device/SM-G973N android_pkg/com.kakao.sdk.KakaoSample app_ver/0.1.0
+  /// sdk/0.1.0 sdk_type/flutter os/android-28 lang/ko-KR origin/R0tsaOaVqq4/xTZAEihCkrXS+6M= device/SM-G973N android_pkg/com.kakao.mirror.KakaoSample app_ver/0.1.0
   /// ```
   ///
   /// ### iOS example
   /// ```
-  /// sdk/0.1.0 sdk_type/flutter os/ios-12.4 lang/en res/414.0x896.0 device/iPhone origin/com.kakao.sdk.KakaoSample app_ver/0.1.0
+  /// sdk/0.1.0 sdk_type/flutter os/ios-12.4 lang/en res/414.0x896.0 device/iPhone origin/com.kakao.mirror.KakaoSample app_ver/0.1.0
   /// ```
   static Future<String> get kaHeader async {
     final String kaHeader = await _channel.invokeMethod("getKaHeader");

@@ -1,4 +1,4 @@
-package com.kakao.sdk.flutter
+package com.kakao.mirror.flutter
 
 /**
  * @author kevin.kang. Created on 2019-06-07..

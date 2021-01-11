@@ -1,4 +1,4 @@
-package com.kakao.sdk.flutter.example
+package com.kakao.mirror.flutter.example
 
 import io.flutter.embedding.android.FlutterActivity
 

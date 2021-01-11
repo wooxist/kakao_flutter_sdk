@@ -1,4 +1,4 @@
-package com.kakao.sdk.flutter
+package com.kakao.mirror.flutter
 
 import android.app.Activity
 import android.content.Context
@@ -40,7 +40,7 @@ class AuthCodeCustomTabsActivity : Activity() {
       openChromeCustomTab(fullUri)
       customTabsOpened = true
     } else {
-      KakaoFlutterSdkPlugin.redirectUriResult.error("CANCELED", "User canceled login.", null)
+      KakaoFlutterMirrorPlugin.redirectUriResult.error("CANCELED", "User canceled login.", null)
       finish()
     }
   }
@@ -49,11 +49,11 @@ class AuthCodeCustomTabsActivity : Activity() {
     super.onNewIntent(intent)
 
     val url = intent?.dataString
-    val redirectUri = KakaoFlutterSdkPlugin.redirectUri
+    val redirectUri = KakaoFlutterMirrorPlugin.redirectUri
     if (redirectUri != null && url?.startsWith(redirectUri) == true) {
-      KakaoFlutterSdkPlugin.redirectUriResult.success(url.toString())
+      KakaoFlutterMirrorPlugin.redirectUriResult.success(url.toString())
     } else {
-      KakaoFlutterSdkPlugin.redirectUriResult.error("REDIRECT_URL_MISMATCH", "Expected: $redirectUri, Actual: $url", null)
+      KakaoFlutterMirrorPlugin.redirectUriResult.error("REDIRECT_URL_MISMATCH", "Expected: $redirectUri, Actual: $url", null)
     }
     this.finish()
   }
@@ -62,7 +62,7 @@ class AuthCodeCustomTabsActivity : Activity() {
     try {
       customTabsConnection = CustomTabsCommonClient.openWithDefault(this, uri)
     } catch (e: Exception) {
-      KakaoFlutterSdkPlugin.redirectUriResult.error("EUNKNOWN", e.localizedMessage, null)
+      KakaoFlutterMirrorPlugin.redirectUriResult.error("EUNKNOWN", e.localizedMessage, null)
       finish()
     }
   }

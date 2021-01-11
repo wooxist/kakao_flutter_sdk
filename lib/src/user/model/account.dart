@@ -6,10 +6,7 @@ part 'account.g.dart';
 /// <nodoc>
 @JsonSerializable(
     fieldRename: FieldRename.snake, explicitToJson: true, includeIfNull: false)
-
-/// Kakao account information.
 class Account {
-  /// <nodoc>
   Account(
       this.profileNeedsAgreement,
       this.profile,

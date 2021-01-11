@@ -3,7 +3,7 @@ import UIKit
 import AuthenticationServices
 import SafariServices
 
-public class SwiftKakaoFlutterSdkPlugin: NSObject, FlutterPlugin, ASWebAuthenticationPresentationContextProviding {
+public class SwiftKakaoFlutterMirrorPlugin: NSObject, FlutterPlugin, ASWebAuthenticationPresentationContextProviding {
     var result: FlutterResult? = nil
     var redirectUri: String? = nil
     var authorizeTalkCompletionHandler : ((URL?, FlutterError?) -> Void)?
@@ -11,7 +11,7 @@ public class SwiftKakaoFlutterSdkPlugin: NSObject, FlutterPlugin, ASWebAuthentic
   public static func register(with registrar: FlutterPluginRegistrar) {
     NSLog("nslog register")
     let channel = FlutterMethodChannel(name: "kakao_flutter_mirror", binaryMessenger: registrar.messenger())
-    let instance = SwiftKakaoFlutterSdkPlugin()
+    let instance = SwiftKakaoFlutterMirrorPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
     registrar.addApplicationDelegate(instance) // This is necessary to receive open iurl delegate method.
   }

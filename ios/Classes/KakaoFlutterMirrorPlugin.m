@@ -1,8 +1,8 @@
-#import "KakaoFlutterSdkPlugin.h"
+#import "KakaoFlutterMirrorPlugin.h"
 #import <kakao_flutter_mirror/kakao_flutter_mirror-Swift.h>
 
-@implementation KakaoFlutterSdkPlugin
+@implementation KakaoFlutterMirrorPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  [SwiftKakaoFlutterSdkPlugin registerWithRegistrar:registrar];
+  [SwiftKakaoFlutterMirrorPlugin registerWithRegistrar:registrar];
 }
 @end

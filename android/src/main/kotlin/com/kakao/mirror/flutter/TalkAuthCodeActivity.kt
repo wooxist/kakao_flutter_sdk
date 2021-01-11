@@ -1,4 +1,4 @@
-package com.kakao.sdk.flutter
+package com.kakao.mirror.flutter
 
 import android.app.Activity
 import android.content.Context
@@ -34,7 +34,7 @@ class TalkAuthCodeActivity : Activity() {
   }
 
   private fun sendError(errorCode: String, errorMessage: String, errorDetails: Any?) {
-    KakaoFlutterSdkPlugin.redirectUriResult.error(errorCode, errorMessage, errorDetails)
+    KakaoFlutterMirrorPlugin.redirectUriResult.error(errorCode, errorMessage, errorDetails)
     finish()
   }
 
@@ -56,7 +56,7 @@ class TalkAuthCodeActivity : Activity() {
         sendError(error, errorDescription, null)
         return
       }
-      KakaoFlutterSdkPlugin.redirectUriResult.success(extras[Constants.EXTRA_REDIRECT_URL])
+      KakaoFlutterMirrorPlugin.redirectUriResult.success(extras[Constants.EXTRA_REDIRECT_URL])
       finish()
       overridePendingTransition(0, 0)
       return

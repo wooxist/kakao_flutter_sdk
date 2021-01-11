@@ -1,4 +1,4 @@
-package com.kakao.sdk.flutter
+package com.kakao.mirror.flutter
 
 import android.annotation.SuppressLint
 import android.annotation.TargetApi
